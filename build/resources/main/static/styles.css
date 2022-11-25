@@ -1,0 +1,38 @@
+/*
+ToDo :: Styling with CSS 3
+
+    1. Apply styling so that the elements containing the images are next to each other horizontally
+
+    2. Add a 2px border, the same colour as the h1 element, to the top and bottom of the caption element
+       within the element with the page class and alter the caption element to 8 units (relative to the root)
+
+    3. Add a margin, 1 relative unit of the root from the image, to the element that you added the borders to
+
+    4. Apply styling to place same the caption element above the image
+
+    5. Apply styling to place the element with the avatar class so that it is positioned on the right hand side of the page
+
+    6. Add a 2px border, the same colour as the h1 element, to the element with the avatar class so that it appears as a
+       circle and has a height / width that is 6 units in size, relative to its parent element.
+
+    7. Change the vertical alignment so that the elements containing the images are aligned to the baseline,
+       e.g. the bottom of the images are at the same baseline level
+
+    8. Give the element with the lorem-ipsum class:
+        - padding 1 unit relative to the root
+        - displays a cursor with a pointing finger
+        - a white background colour
+        - has rounded corners that are half of a unit relative to its parent
+        - a box shadow 25% of black that appears in 0.5s when the cursor is over the element
+        - styling the paragraphs so that the left hand edge is inline with the line above
+        - Without adding any classes change the second paragraph to rgb(120,0,0)
+*/
+
+html { box-sizing: border-box; font-family: 'Open Sans', sans-serif; font-size: 12px; }
+*,
+*:before,
+*:after { box-sizing: inherit; }
+body { color: #131313; height: 100%; margin: 2rem; }
+h1 { color: rgb(169, 13, 94); }
+p { margin: 0; padding-bottom: 10px; }
+
